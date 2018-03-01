@@ -85,8 +85,8 @@ struct flame_element{
   
 void setup() {
  // if (D_){
-    Serial.begin(9600);
-    Serial.println("STARTUP");
+//   Serial.begin(9600);
+//   Serial.println("STARTUP");
 //  }
   strip.begin();
   strip.show(); // Initialize all pixels to 'off'
