@@ -1,3 +1,19 @@
+// If flashing on Sparkfun ATTiny flasher remember to burn bootloader
+// This will set the fuses at the correct speed- 8Mhz internal
+// Then you can
+// If flashing on Sparkfun ATTiny flasher remember to burn bootloader FIRST
+// This will set the fuses at the correct speed- 8Mhz internal
+// Then you can flash the Neopix sketch
+// If you are getting all white or odd patterns - bootloader is not burned..
+// Skip this if you are using the Kickstarter ATTIny85
+// Set your board to ATTiny
+// Set sub board to to ATTiny 85
+// Set speed to 8 Mhz (internal)
+// Set programer to USBtinyISP
+// Flash the chip and you are good to go..
+
+
+
 #include <Adafruit_NeoPixel.h>
 
 /*
